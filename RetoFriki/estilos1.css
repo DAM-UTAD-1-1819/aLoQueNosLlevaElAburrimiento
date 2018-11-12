@@ -1,0 +1,140 @@
+@keyframes capaAuxTexto2{
+	0%{
+		opacity: 0;
+	}
+	75%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+
+}
+
+body{
+	background-color:white;
+	color: black;
+	text-align:center;
+}
+
+img{
+	width: 300px;
+	height: 423px;
+}
+
+.container{
+	position: relative;
+	width: 300px;
+	height: 423px;
+	margin: 10px auto 0 auto;
+	overflow: hidden;
+
+
+
+
+
+}
+
+
+
+.capaAuxImagen{
+	position:relative;
+	width: 300px;
+	height: 423px;
+}
+
+.capaAuxTexto0{
+	position: absolute;
+	top:0;
+	left: 110%;
+	color:white;
+	background-color: navy;
+	width: 300px;
+	height: 423px;
+	margin: 0 auto 0 auto;
+	display:table;
+
+}
+.container:hover .capaAuxTexto0{
+
+	left:50%;
+
+	color:white;
+	background-color: navy;
+	width: 300px;
+	height: 423px;
+	margin: 0 auto 0 auto;
+	display:table;
+	transition: 1s  ease;
+
+}
+ .capaAuxTexto1{
+	position: absolute;
+	top:0;
+	left: -110%;
+	color:white;
+	background-color: navy;
+	width: 300px;
+	height: 423px;
+	margin: 0 auto 0 auto;
+	display:table;
+
+
+}
+.container:hover .capaAuxTexto1{
+	left:-50%;
+
+	color:white;
+	background-color: navy;
+	width: 300px;
+	height: 423px;
+	margin: 0 auto 0 auto;
+	display:table;
+	transition: 1s  ease;
+
+}
+
+ .capaAuxTexto2{
+	position: absolute;
+	top: 0px;
+	opacity:0;
+	color:white;
+	background-color: transparent;
+	width: 300px;
+	height: 423px;
+	margin: 0 auto 0 auto;
+	display:table;
+
+
+}
+.container:hover .capaAuxTexto2{
+	position: absolute;
+	top: 0px;
+	opacity:1;
+	color:white;
+	background-color: transparent;
+	width: 300px;
+	height: 423px;
+	margin: 0 auto 0 auto;
+	display:table;
+	animation: capaAuxTexto2 1s ease;
+
+}
+
+
+
+.enlace{
+	font-size:45px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.enlace a:link{
+	color:white;
+}
+.enlace a:visited{
+	color:white;
+}
